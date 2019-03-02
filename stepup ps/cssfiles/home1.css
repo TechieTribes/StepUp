@@ -1,0 +1,35 @@
+.bodypart
+{
+	<center>
+	width:700px;
+	height:800px;
+	margin-top:10px;
+	background-color:yellow;
+	background-repeat:no-repeat;
+}
+
+.bodypart .imagepart
+{	
+	<center>
+	width:400px;
+	height:300px;
+	background-image:url('edu.gif');
+	background-repeat:no-repeat;
+}
+
+.bodypart h1
+{
+	color:blue;
+	text-align:center;
+}
+	</center> 
+.footerpart
+{
+	width:800px;
+	height:30px;
+	margin-top:10px;
+}
+
+
+
+

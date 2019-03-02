@@ -1,0 +1,79 @@
+.page
+{
+	width:1500x;
+	height:200; 
+	border-style:groove;
+}
+
+
+.headerpart
+{
+	width:1500px;
+	height:150px; 
+	background-color:rgb(255, 255, 255);
+	background-image:url('stepup4.jpg');
+	background-repeat:no-repeat;
+}
+
+.linkspart
+{
+	width:1490px;
+	height:30px;
+	margin-top:10px;
+	background-color:rgb(1,8,1);
+
+	border-style:groove;
+}
+
+.bodypart
+{
+	<center>
+	width:600px;
+	height:500px;
+	margin-top:10px;
+	
+}
+
+.bodypart .imagepart
+{	
+	<center>
+	width:1500px;
+	height:560px;
+	background-image:url('final1.jpg');
+	background-repeat:no-repeat;
+}
+
+<!--.bodypart h1
+{
+	color:blue;
+	text-align:center;
+}
+	</center> !>
+.footerpart
+{
+	width:800px;
+	height:30px;
+	margin-top:10px;
+}
+
+
+
+
+
+
+
+.linkspart a
+{
+	color:rgb(251,252,240);
+	text-decoration:none;
+
+}
+
+.linkspart a:hover
+{
+	background-color:rgb(251,252,240);
+	color:rgb(1,8,1);
+
+
+
+}

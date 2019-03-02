@@ -1,0 +1,29 @@
+body{
+	margin:0;
+	padding:0px;
+	background-color: lightpink;
+  	background-position: left;
+  	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: bold;
+	padding: 70px 30px;
+}
+.proj{
+	width: 120px;
+	height: 220px;
+	color: lime;
+	top:45%;
+	left:20%;
+	font-size: 50px;
+	font-style: italic;
+	position: absolute;
+	transform:translate(-50%,-50%);
+	box-sizing: border-box;
+}
+
+.proj p{
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
