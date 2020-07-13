@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>Sign</title>
+	<link rel="stylesheet" type="text/css" href="sign.css">
+	<script type="text/javascript">
+	function validate() {
+		var fname = document.forms["signup"]["fname"].value;
+		var lname = document.forms["signup"]["lname"].value;			 
+		var email = document.forms["signup"]["email"].value; 
+		var mno = document.forms["signup"]["mno"].value; 
+		var pass = document.forms["signup"]["pass"].value;
+		var cpass = document.forms["signup"]["cpass"].value;
+		if (pass !=cpass)					 
+		{ 
+			window.alert("Your Password is not Matching");
+			password.focus(); 
+			return false; 
+		}
+		return true;
+	}
+</script>
+<!-- <style>
+	span.pass { 
+		float: right; 
+		padding-top: 16px; 
+	} 	
+	@media screen and (max-width: 300px) { 
+		span.pass { 
+			display: block; 
+			float: none; 
+		} 
+</style>-->
+</head> 
+<body>
+	<div style="color:black">
+	<a style="text-align:center">
+	<h1 style="font-size:50px">SIGN UP</h1></a>
+	<form name="signup" action="sign.php" onsubmit="return validate()" method="POST">
+		<p>First Name:</p>
+		<input type="text" name="fname" placeholder="NAME" required>
+		<p>Last Name:</p>
+		<input type="text" name="lname" placeholder="LAST NAME" required>
+		<p>EMAIL Id:</p>
+		<input type="EMAIL" name="email" placeholder="EMAIL" required>
+		<p>Mobile No:</p>
+		<input type="tel" name="mno" placeholder="MOBILE NO" required>
+		<p>Password:</p>
+		<input type="password" name="pass" placeholder="PASSWORD" required>
+		<p> Confirm Password:</p>
+		<input type="password" name="cpass" placeholder="PASSWORD" required>
+		<br><br>
+		 <p><input type="submit" name="submit" value="REGISTER"></p>
+	</div>
+</form>
+</body>
+</html>
